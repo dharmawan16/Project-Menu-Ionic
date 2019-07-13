@@ -18,7 +18,8 @@ const routes: Routes =[
   { path: '', redirectTo: 'login', pathMatch: 'full'}, //path kosong berarti awal page yg di buka, sebagai root
   { path: 'login', loadChildren: './pages/login/login.module#LoginPageModule'},
   { path: 'menu', loadChildren: './pages/menu/menu.module#MenuPageModule'},
-  { path: 'tab4', loadChildren: './pages/tab4/tab4.module#Tab4PageModule' }
+  { path: 'tab4', loadChildren: './pages/tab4/tab4.module#Tab4PageModule' },
+  { path: 'geolocation', loadChildren: './pages/geolocation/geolocation.module#GeolocationPageModule' }
 ];
 
 @NgModule({

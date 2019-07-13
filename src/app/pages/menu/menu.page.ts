@@ -13,7 +13,8 @@ export class MenuPage implements OnInit {
   pages=[
     { title: 'Menu dengan Tab', url: '/menu/pertama'},
     { title: 'Menu Kedua', url: '/menu/kedua'},
-    { title: 'Firebase', url: '/menu/ketiga'}
+    { title: 'Firebase', url: '/menu/ketiga'},
+    { title: 'Geolocation', url: '/menu/keempat'}
   ];
 
   constructor(private router: Router) { 

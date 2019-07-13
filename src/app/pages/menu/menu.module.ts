@@ -14,7 +14,8 @@ const routes: Routes = [
     children: [
       { path: 'pertama', loadChildren: '../tabpertama/tabpertama.module#TabpertamaPageModule'},
       { path: 'kedua', loadChildren: '../menukedua/menukedua.module#MenukeduaPageModule'},
-      { path: 'ketiga', loadChildren: '../firebase/firebase.module#FirebasePageModule'}
+      { path: 'ketiga', loadChildren: '../firebase/firebase.module#FirebasePageModule'},
+      { path: 'keempat', loadChildren: '../geolocation/geolocation.module#GeolocationPageModule' }
 
     ]
   }
